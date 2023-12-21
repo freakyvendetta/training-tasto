@@ -1,0 +1,177 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+}
+header{}
+
+header img{
+    height: 120px;
+    width: 200px;
+    display: block;
+}
+
+nav{
+    background-color: #9e814d;
+}
+.menu{
+    float: left;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+}
+.search input{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+}
+.clear{
+    clear: both;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+.info{
+    position: absolute;
+    right: 400px;
+    bottom: 400px;
+    background-color: #8c7358;
+    padding: 20px;
+    border: solid ;
+    border-radius: 30px;
+}
+.info h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: cursive;
+}
+.info span{
+    font-style: italic;
+    color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+}
+.info a{
+    background-color:#ddd2ba;
+    margin: 10px 0;
+    color: black;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.contact{
+    text-align: center;
+    border: s;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.box{
+    background-color: #a0a7a9;
+    ./ height: 300px;
+    width: 33%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.box h3{
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+.hot, .stocked, .discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.hot{
+    background-color: red;
+    color: white;
+}
+.stocked{
+    background-color: green;
+    color: white;
+}
+.discount{
+    background-color: yellow;
+    color: white;
+}
+.newsletter{
+    background-color: red;
+    padding: 40px 0;
+    background-image: url('../images/banner.jpg');
+}
+.newsletter form{
+    display: block;
+    text-align: center;
+}
+.newsletter input[type=text]{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+}
+.newsletter input[type=submit]{
+    padding: 10px;
+    width: 100px;
+    background-color: #8c7358;
+    color: white;
+    border: none;
+}
+.newsletter h4{
+    color: white;
+}
+.footer{
+    padding: 40px;
+}
+.footer_boxes{
+    display: flex;
+}
+.footer_boxes h5{
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+}
+.footer_boxes ul{
+    list-style: none;
+}
+.footer_boxes ul li{
+    padding: 10px 0;
+}
+.footer_boxes ul li a{
+    color: steelblue;
+    font-size: 20px;
+    text-decoration: none;
+}
